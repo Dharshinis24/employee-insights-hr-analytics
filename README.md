@@ -9,6 +9,7 @@ The application allows organizations to manage employee information, departments
 ## 🚀 Features
 
 ### 👨‍💼 Employee Management
+
 - Add new employees
 - View employee details
 - Edit employee information
@@ -17,6 +18,7 @@ The application allows organizations to manage employee information, departments
 - View employee statistics
 
 ### 🏢 Department Management
+
 - Add departments
 - View department details
 - Edit departments
@@ -26,6 +28,7 @@ The application allows organizations to manage employee information, departments
 - Prevent deletion of departments that have assigned employees
 
 ### 📅 Attendance Management
+
 - Add attendance records
 - View attendance records
 - Edit attendance records
@@ -36,6 +39,7 @@ The application allows organizations to manage employee information, departments
 - Track attendance status
 
 ### 📝 Leave Management
+
 - Add leave requests
 - View leave requests
 - Edit leave requests
@@ -46,6 +50,7 @@ The application allows organizations to manage employee information, departments
 - Search leave records
 
 ### 📊 HR Analytics Dashboard
+
 - Total employee count
 - Total department count
 - Average salary
@@ -59,39 +64,44 @@ The application allows organizations to manage employee information, departments
 - Attendance status summary
 
 ### 🧪 Testing
+
 The project includes automated tests using `pytest`.
 
-Current test result:
-
-**34 tests passed successfully.**
+**Current test result: 34 tests passed successfully.** ✅
 
 ---
 
 ## 🛠️ Technologies Used
 
 ### Frontend
+
 - Streamlit
 - HTML
 - CSS
 
 ### Backend
+
 - Python
 - Object-Oriented Programming
 - Service-based architecture
 
 ### Database
+
 - Microsoft SQL Server
 - SQL
 - pyodbc
 
 ### Data & Visualization
+
 - Pandas
 - Plotly
 
 ### Testing
+
 - Pytest
 
 ### Development Tools
+
 - Visual Studio Code
 - Git
 - GitHub
@@ -123,7 +133,10 @@ Employee-Insights-HR-Analytics/
 │
 ├── screenshots/
 │   ├── dashboard.png
-│   └── employees.png
+│   ├── employee.png
+│   ├── department.png
+│   ├── attendance.png
+│   └── leave.png
 │
 ├── services/
 │   ├── analytics_service.py
