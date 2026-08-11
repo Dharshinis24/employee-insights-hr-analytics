@@ -111,13 +111,25 @@ if st.session_state.edit_mode or st.session_state.delete_mode:
         st.session_state.leave_id
     )
 
-    LeaveID = st.session_state.leave_id
-    EmployeeID = selected_leave.EmployeeID
-    LeaveType = selected_leave.LeaveType
-    StartDate = selected_leave.StartDate
-    EndDate = selected_leave.EndDate
-    Reason = selected_leave.Reason
-    Status = selected_leave.Status
+    if selected_leave is not None:
+
+        LeaveID = selected_leave[0]
+        EmployeeID = selected_leave[1]
+        LeaveType = selected_leave[2]
+        StartDate = selected_leave[3]
+        EndDate = selected_leave[4]
+        Reason = selected_leave[5]
+        Status = selected_leave[6]
+
+    else:
+        st.error("Selected leave request was not found.")
+
+        st.session_state.show_form = False
+        st.session_state.edit_mode = False
+        st.session_state.delete_mode = False
+        st.session_state.leave_id = None
+
+        st.stop()
 
 else:
 
