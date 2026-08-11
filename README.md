@@ -103,21 +103,6 @@ Current test result:
 ```text
 Employee-Insights-HR-Analytics/
 │
-├── assets/
-│   ├── company_banner.png
-│   ├── employee.png
-│   ├── logo.png
-│   └── style.css
-│
-├── components/
-│   ├── cards.py
-│   ├── charts.py
-│   ├── employee_form.py
-│   ├── filters.py
-│   ├── footer.py
-│   ├── navbar.py
-│   └── sidebar.py
-│
 ├── database/
 │   ├── procedures.sql
 │   ├── sample_data.sql
@@ -128,8 +113,7 @@ Employee-Insights-HR-Analytics/
 │   ├── attendance.py
 │   ├── department.py
 │   ├── employee.py
-│   ├── leave_request.py
-│   └── user.py
+│   └── leave_request.py
 │
 ├── pages/
 │   ├── 1_Employee_Management.py
@@ -139,18 +123,14 @@ Employee-Insights-HR-Analytics/
 │
 ├── screenshots/
 │   ├── dashboard.png
-│   ├── employees.png
-│   ├── login.png
-│   └── reports.png
+│   └── employees.png
 │
 ├── services/
 │   ├── analytics_service.py
 │   ├── attendance_service.py
-│   ├── auth_service.py
 │   ├── department_service.py
 │   ├── employee_service.py
-│   ├── leave_service.py
-│   └── report_service.py
+│   └── leave_service.py
 │
 ├── tests/
 │   ├── test_attendance.py
@@ -160,14 +140,6 @@ Employee-Insights-HR-Analytics/
 │   ├── test_employee.py
 │   ├── test_employee_services.py
 │   └── test_leave.py
-│
-├── utils/
-│   ├── calculations.py
-│   ├── charts.py
-│   ├── constants.py
-│   ├── export.py
-│   ├── helpers.py
-│   └── validators.py
 │
 ├── app.py
 ├── config.py
